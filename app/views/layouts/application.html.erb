@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Resumator</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body id="resumator">  	
+  	<%= render 'layouts/header' %>  	
+  	<div class="col-md-12 col-lg-12 col-sx-12">
+	<%= yield %>	
+	</div>
+  </body>
+</html>

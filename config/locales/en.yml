@@ -1,0 +1,7 @@
+en:
+  hello: 'Hello'
+  title:
+    main:
+      _text: 'Resumator'
+    sub:
+      _text: 'The original resume b.s. detector'
